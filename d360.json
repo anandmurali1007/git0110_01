@@ -8,7 +8,12 @@
       "children": [
         {
           "paths": [
-            { "langs": ["en"], "path": "ai-fundamentals/what-is-artificial-intelligence.md" }
+            { "langs": ["en"], "path": "ai-fundamentals/generative-ai.md" }
+          ]
+        },
+        {
+          "paths": [
+            { "langs": ["en"], "path": "ai-fundamentals/large-language-models.md" }
           ]
         },
         {
@@ -23,12 +28,7 @@
         },
         {
           "paths": [
-            { "langs": ["en"], "path": "ai-fundamentals/large-language-models.md" }
-          ]
-        },
-        {
-          "paths": [
-            { "langs": ["en"], "path": "ai-fundamentals/generative-ai.md" }
+            { "langs": ["en"], "path": "ai-fundamentals/what-is-artificial-intelligence.md" }
           ]
         }
       ]
@@ -38,16 +38,6 @@
         { "langs": ["en"], "path": "ai-in-practice/README.md" }
       ],
       "children": [
-        {
-          "paths": [
-            { "langs": ["en"], "path": "ai-in-practice/prompt-engineering.md" }
-          ]
-        },
-        {
-          "paths": [
-            { "langs": ["en"], "path": "ai-in-practice/retrieval-augmented-generation.md" }
-          ]
-        },
         {
           "paths": [
             { "langs": ["en"], "path": "ai-in-practice/ai-agents.md" }
@@ -60,7 +50,17 @@
         },
         {
           "paths": [
+            { "langs": ["en"], "path": "ai-in-practice/prompt-engineering.md" }
+          ]
+        },
+        {
+          "paths": [
             { "langs": ["en"], "path": "ai-in-practice/responsible-ai.md" }
+          ]
+        },
+        {
+          "paths": [
+            { "langs": ["en"], "path": "ai-in-practice/retrieval-augmented-generation.md" }
           ]
         }
       ]
@@ -85,11 +85,6 @@
             { "langs": ["en"], "path": "editor-tests/gfm/README.md" }
           ],
           "children": [
-            {
-              "paths": [
-                { "langs": ["en"], "path": "editor-tests/gfm/gfm-00-test-checklist.md" }
-              ]
-            },
             {
               "paths": [
                 { "langs": ["en"], "path": "editor-tests/gfm/gfm-01-headings-paragraphs-and-breaks.md" }
@@ -128,6 +123,11 @@
             {
               "paths": [
                 { "langs": ["en"], "path": "editor-tests/gfm/gfm-08-raw-html-and-tag-filter.md" }
+              ]
+            },
+            {
+              "paths": [
+                { "langs": ["en"], "path": "editor-tests/gfm/gfm-00-test-checklist.md" }
               ]
             }
           ]
